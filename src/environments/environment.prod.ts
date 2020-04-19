@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  geojson_service_url: "https://example-data-service.azurewebsites.net"
 };
