@@ -14,8 +14,8 @@ export class MainComponent implements OnInit {
   feature;
   options = {
     layers: [L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')],
-    zoom: 6,
-    center: L.latLng(31.392185,-99.170506)
+    zoom: 5,
+    center: L.latLng(37.0902, -95.7129)
   };
 
   constructor(private dataService: DataService) {

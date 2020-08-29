@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  geojson_service_url: "https://localhost:8080"
+  geojson_service_url: "http://localhost:8080"
 };

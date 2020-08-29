@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
+import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 
@@ -13,6 +13,6 @@ export class DataService {
   ) { }
 
   getData(): Observable<Object> {
-    return this.http.get<Object>(environment.geojson_service_url);
+    return this.http.get<Object>(environment.geojson_service_url + "/states/");
   }
 }

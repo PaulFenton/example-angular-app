@@ -1,0 +1,17 @@
+{
+  "hosting": [
+    {
+      "app": {
+        "project": "example-angular-app",
+        "target": "build",
+        "configuration": "production",
+        "path": "dist/example-angular-app"
+      },
+      "azureHosting": {
+        "subscription": "3bf083a0-0aa3-43da-8301-dece0f7dd67f",
+        "resourceGroupName": "example-angular-app-static-deploy",
+        "account": "exampleangularappstatic"
+      }
+    }
+  ]
+}
